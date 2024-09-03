@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather - Some Random News Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+			animation: anim2 5s infinite;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+		        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            padding: 5px 10px;
+        }
+		nav ul li a:hover {
+            background-color: #555;
+			border-radius: 5px;
+   
+        }
+        main {
+            margin: 20px;
+        }
+        .weather-icon {
+            font-size: 100px;
+        }
+		@keyframes anim2 {
+		0% {background-color: red;}
+		25%{background-color:yellow;}
+		50%{background-color:orange;}
+		75%{background-color:brown;}
+		100% {background-color: red;}
+		}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Weather Forecast</h1>
+    </header>
+	<nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="local_news.html">Local News</a></li>
+            <li><a href="weather.html">Weather</a></li>
+            <li><a href="index.html#events">Events</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div align='center'>
+            <h2>Today's Weather</h2>
+            <div class="weather-icon">☀️</div>
+            <p>Sunny</p>
+            <p>High: 35 C</p>
+            <p>Low: 32 C</p>
+        </div>
+    </main>
+</body>
+</html>
